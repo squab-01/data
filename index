@@ -1,0 +1,5 @@
+df <- data.frame(Name = c("Alice", "Bob", "Charlie"),
+                 Age = c(25, 30, 22),
+                 Grade = c("A", "B", "A"))
+filtered_data <- df[df$Age > 25, ]
+print(filtered_data)
